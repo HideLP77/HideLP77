@@ -579,8 +579,8 @@ curcontent["Oplata"] = {
 			<input type="hidden" id="fk-donation-sign" name="s" value="">\
 			<input type="hidden" id="enot-donation-id" name="o" value="">\
 			<input type="hidden" id="fk-donation-comment" name="cf" value="">\
-			<input type="hidden" name="m" value="">\
-			<input type="hidden" name="c" value="Apple Store">\
+			<input type="hidden" name="m" value="37757">\
+			<input type="hidden" name="c" value="Blood Store">\
 			<input type="hidden" name="cr" value="RUB">\
 			<div class="qiwi-error-box" id="fk-error-box"></div>\
 	</div>\
