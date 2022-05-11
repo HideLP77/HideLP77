@@ -20,7 +20,7 @@ curcontent["rules"] = {
 <p><li>Нельзя жить больше положенного максимума в одном доме.</li></p>\
 <p><li>Нельзя устраивать альянсы и перемирия с соседями если в сумме вас больше указанного в названии сервера максимума.</li></p>\
 <p><li>Частая смена тиммейта будет считаться за нарушения правила о лимите, тоже самое касается и игру с другим игроком пока тиммейт стоит афк или не находится рядом</li></p>\
-<p><li>Нельзя рейдить и антирейдить в 3+ (подсад, доп.люди на обороне и вообще любое кооперирование направленное против других игроков).</li></p><br>\
+<p><li>Нельзя рейдить и антирейдить в 1+/2+/3+ (подсад, доп.люди на обороне и вообще любое кооперирование направленное против других игроков).</li></p><br>\
 <p class="MsoNormal"><span>Игровой Чат</span></li></p>\
 <p><li>Запрещены ссылки в чате на сторонние сервисы и сайты.</li></p>\
 <p><li>Запрещен флуд (многократное повторение бессмысленных фраз, символов) или многократное отправление одинаковых фраз за короткий промежуток времени.</li></p>\
@@ -36,12 +36,12 @@ curcontent["rules"] = {
 <p><li>При согласии на проверку вы разрешаете устанавливать сторонние программы нужные администрации для проверки вашего PC.</li></p>\
 <p><li>Выход с сервера во время вызова на проверку увенчается блокировкой.</li></p>\
 <p><li>Запрещено чистить ПК перед проверкой.</li></p>\
-</ul><div class="unban" style="background: white; border-radius: 10px; padding: 20px;"><p class="MsoNormal" style="font-weight: bold; margin-bottom: 5px;">Возможность разблокровки</p><span>Через месяц после блокировки можно подать апелляцию, но, только в случае если бан был получен не за читы или макросы. Писать апелляцию нужно в личные сообщения отдельной группы: <a href="https://vk.com/Appleappeal">vk.com/Appleappeal</a></span></div></div></div>'
+</ul><div class="unban" style="background: white; border-radius: 10px; padding: 20px;"><p class="MsoNormal" style="font-weight: bold; margin-bottom: 5px;">Возможность разблокровки</p><span>Через месяц после блокировки можно подать апелляцию, но, только в случае если бан был получен не за читы или макросы. Писать апелляцию нужно в личные сообщения отдельной группы: <a href="https://vk.com/bloodappeal">vk.com/bloodappeal</a></span></div></div></div>'
 };
 
 //<p style="text-align: center;"><u>При заходе на наши сервера вы автоматически соглашаетесь с правилами.</u></p>\
 
-/* curcontent["skins"] = {
+curcontent["skins"] = {
 	xhead: 'Пополнение скинами напрямую',
 	xcon: '<div class="skin-content"><div class="spoiler"><div class="x-spoiler">\
 <input class="spoil-button" type="checkbox" tabindex="-1">\
@@ -59,7 +59,7 @@ curcontent["rules"] = {
      <div class="spoil-box"><span class="spoil-close fa"></span><span class="spoil-open fa"></span><span class="spoil-head">Хочу пополнить баланс скинами</span><br>\
 	 <blockquote class="spoil-Untext">Чтобы пополнить баланс необходимо перейти на страницу обмена (нажав на кнопку снизу), выбрать скины которыми хотите пополнить, нажать кнопку "Предложить обмен" и подтвердить обмен через мобильное приложение Steam.<div class="btn-skins"><a class="btn-skin" href="https://steamcommunity.com/tradeoffer/new/?partner=97747149&token=6cxG98Sh" target="_blank">Начать обмен</a></blockquote>\
      </div></div></div><div class="warnings_skin">⚠ Перед тем как отправлять скины обязательно ознакомьтесь с <b>ограничениями при пополнении скинами</b> и <b>авторизируйтесь на сайте</b>, а так-же учтите, средства за скины будут зачислены только на баланс аккаунта с которого они были отправлены.</div></div>'
- */ };
+};
 
 
 curcontent["kit-kaban"] = {
@@ -524,7 +524,7 @@ curcontent["kit-free"] = {
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/furnace.png">\
 <div class="kit-item__quantity">25%</div></div></div>\
 </div></div>\
-<div class="serverheader">Кит за "#Applerust" в нике - <span>Откат 48ч</span></div>\
+<div class="serverheader">Кит за "#bloodrust" в нике - <span>Откат 48ч</span></div>\
 <div class="kit_set"><div class="kit-items">\
 <div class="kit-items__item"><div class="kit-item"><img class="kit-item__image" src="https://static.moscow.ovh/images/games/rust/icons/deer.skull.mask.png">\
 <div class="kit-item__quantity">x1</div></div></div>\
@@ -557,11 +557,11 @@ curcontent["Oplata"] = {
 			<label for="qiwi-donation-amount" class="qiwi-label">Cумма</label>\
 			<div class="qiwi-rub">₽</div>\
 			<input type="tel" placeholder="Сумма" id="qiwi-donation-amount" name="amount" required="" value="">\
-			<input type="hidden" id="qiwi-donation-comment" name="comment" value="Пожертвование на Applerust.ru">\
+			<input type="hidden" id="qiwi-donation-comment" name="comment" value="Пожертвование на bloodrust.ru">\
 			<input type="hidden" name="publicKey" value="48e7qUxn9T7RyYE1MVZswX1FRSbE6iyCj2gCRwwF3Dnh5XrasNTx3BGPiMsyXQFNKQhvukniQG8RTVhYm3iPs2ZdcEyKdBwCbuBSxinbkpkfvVYi3g77vQiTsmuZZoA3rW1hJodcvQ7VWV6JcUhXNukgD1yXh7J1r3RqZcTGghF8pzRJWQZNEWTPRbZvF">\
 			<input type="hidden" id="qiwi-donation-account" name="account" value="0">\
 			<input type="hidden" name="customFields[themeCode]" value="Ylia-TKn6mioHb0">\
-			<input type="hidden" id="qiwi-successUrl" name="successUrl" value="https://Apple-rust.ru">\
+			<input type="hidden" id="qiwi-successUrl" name="successUrl" value="https://apple-rust.ru">\
 			<div class="qiwi-error-box" id="qiwi-error-box"></div>\
 	</div>\
 	<div class="qiwi-button-box">\
@@ -579,7 +579,7 @@ curcontent["Oplata"] = {
 			<input type="hidden" id="fk-donation-sign" name="s" value="">\
 			<input type="hidden" id="enot-donation-id" name="o" value="">\
 			<input type="hidden" id="fk-donation-comment" name="cf" value="">\
-			<input type="hidden" name="m" value="37757">\
+			<input type="hidden" name="m" value="">\
 			<input type="hidden" name="c" value="Apple Store">\
 			<input type="hidden" name="cr" value="RUB">\
 			<div class="qiwi-error-box" id="fk-error-box"></div>\
@@ -595,7 +595,26 @@ curcontent["Oplata"] = {
 </div>\
 <div class="oplata_cont"><a class="container-oplata" id="qiwi-inp-other2">\
 	<img alt="" src="https://i.imgur.com/kb8M7vg.png" class="icon-user-oplata"><div class="textContainer-oplata"><span class="name-user">Пополнить картой</span><span class="category-user">Visa и Mastercard</span></div></a><a class="container-oplata" onclick="Open(\'skins\');" target="_blank">\
+	<img alt="" src="https://i.imgur.com/iV8LCN1.png" class="icon-user-oplata"><div class="textContainer-oplata"><span class="name-user">Пополнить скинами</span><span class="category-user">По ценам с торговой площадки</span></div></a>\
 </div><div class="warnings_skin2">⚠ Перед тем как пополнять банковской картой через QIWI - нужно авторизироваться в своём кошельке, а если его нет - зарегистрировать.</div>'
+};
+
+
+
+var BlockListArrays = [
+['shotgun.waterpipe', 'pistol.revolver'],
+['flamethrower', 'pistol.python', 'pistol.semiauto', 'shotgun.double'], 
+['shotgun.pump', 'shotgun.spas12', 'pistol.m92', 'rifle.semiauto', 'coffeecan.helmet', 'roadsign.jacket', 'roadsign.kilt', 'pookie.bear'],
+['smg.2', 'smg.thompson', 'smg.mp5', 'rifle.m39', 'metal.facemask', 'metal.plate.torso'], 
+['rifle.bolt', 'multiplegrenadelauncher', 'heavy.plate.helmet', 'heavy.plate.jacket', 'heavy.plate.pants'], 
+['rifle.ak', 'rifle.lr300', 'rifle.l96', 'grenade.f1', 'grenade.beancan', 'explosive.satchel'],
+['lmg.m249', 'ammo.rifle.explosive', 'explosive.timed', 'rocket.launcher', 'ammo.grenadelauncher.he']];
+
+
+curcontent["block"] = {
+	xhead: 'Блокировка предметов после вайпа', 
+	xcon: '<div class="xbox_custom_block"><div class="kit-items">'
+	
 };
 
 
@@ -712,15 +731,15 @@ function freekassaHandler(e){
 	var inputval = document.getElementById('fk-donation-amount').value;
 	var inputfloat = parseFloat(inputval);
 	if(inputfloat < 1 || inputfloat > 15000 || isNaN(inputfloat)){
-		document.getElementById('fk-error-box').innerText = "От 1 до 15000 RUB";
+		document.getElementById('fk-error-box').innerText = "От 50 до 15000 RUB";
 		e.preventDefault();
 		return false;
 	}else{
 		document.getElementById('fk-error-box').innerText = "";
 	}
 	document.getElementById('fk-donation-amount').value = inputfloat;
-	document.getElementById('enot-donation-id').value = MD5('' + inputfloat + CustomerSteamId + Math.floor(Math.random() * 1000000000));
-	document.getElementById('fk-donation-sign').value = MD5(':' + inputfloat + ':Applesec:' + document.getElementById('enot-donation-id').value);
+	document.getElementById('enot-donation-id').value = MD5('37757' + inputfloat + CustomerSteamId + Math.floor(Math.random() * 1000000000));
+	document.getElementById('fk-donation-sign').value = MD5('37757:' + inputfloat + ':bloodsec:' + document.getElementById('enot-donation-id').value);
 	if(CustomerSteamId == "0" || CustomerSteamId == ""){
 		document.getElementById('fk-error-box').innerText = "Пожалуйста авторизуйтесь в магазине!";
 		e.preventDefault();
@@ -735,7 +754,7 @@ function qiwiHandler(e){
 	var inputval = document.getElementById('qiwi-donation-amount').value;
 	var inputfloat = parseFloat(inputval).toFixed(2);
 	if(inputfloat < 1 || inputfloat > 15000 || isNaN(inputfloat)){
-		document.getElementById('qiwi-error-box').innerText = "От 1 до 15000 RUB";
+		document.getElementById('qiwi-error-box').innerText = "От 60 до 15000 RUB";
 		e.preventDefault();
 		return false;
 	}else{
