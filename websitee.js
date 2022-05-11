@@ -110,29 +110,6 @@ function closepage() {
   document.getElementsByTagName('body')[0].className = "";
 }
 
-function search(e){
-	if (e.offsetX < 1) { 
-		console.log(e.target.innerText + ' | ' + e.clientX);
-		if (document.selection) { // IE
-			var range = document.body.createTextRange();
-			range.moveToElementText(e.target);
-			range.select();
-		} else if (window.getSelection) {
-			var range = document.createRange();
-			range.selectNode(e.target);
-			window.getSelection().removeAllRanges();
-			window.getSelection().addRange(range);
-		}
-		try {
-			var successful = document.execCommand('copy');
-			var msg = successful ? 'successful' : 'unsuccessful';
-			console.log('успешно скопирован, нажмите CTRL + V чтобы вставить в консоль F1 в игре.'); 
-		  } catch (err) {
-			console.log('Oops, unable to copy' + err);
-		  }
-    }
-}
-
 window.onload = function () {
 	document.body.onclick=function(event)
 	{
@@ -160,7 +137,7 @@ var OvhPayUrl = "";
 
 var now = new Date();
 
-function freekassaHandler(e){
+/* function freekassaHandler(e){
 	qiwiFormHandle();
 	var inputval = document.getElementById('fk-donation-amount').value;
 	var inputfloat = parseFloat(inputval);
@@ -181,7 +158,7 @@ function freekassaHandler(e){
 	}
 	
 	return null;
-}
+} */ 
 
 function qiwiHandler(e){
 	//e.preventDefault();
